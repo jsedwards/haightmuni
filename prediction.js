@@ -1,7 +1,7 @@
 $(document).ready(function(){
   console.log("ready");
   $.ajax({
-    url:"http://webservices.nextbus.com/service/publicXMLFeed?command=predictions&a=sf-muni&stopId=14958", 
+    url:"http://webservices.nextbus.com/service/publicXMLFeed?command=predictions&a=mbta&stopId=6204", 
     dataType: 'xml'
   }).success(function(data){
     console.log(data);
